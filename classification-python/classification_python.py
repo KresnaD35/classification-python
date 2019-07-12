@@ -32,4 +32,4 @@ prediction_tree = clf.predict(x_tes_tree)
 accuration_tree = accuracy_score(y_train, prediction_tree)
 
 print(prediction_tree)
-
+print(accuration_tree)
